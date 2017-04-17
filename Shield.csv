@@ -1,0 +1,16 @@
+Reference, Value, Footprint, Datasheet
+C1,4700pF,Capacitors_THT:CP_Radial_D5.0mm_P2.50mm,https://www.digikey.com/product-detail/en/vishay-bc-components/K472K15X7RF5TL2/BC1076CT-ND/286698
+J1,EXTERNAL,Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm,https://www.digikey.com/products/en?keywords=68001-102HLF%20
+P1,Power,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,https://www.digikey.com/products/en?keywords=%2068001-108HLF%20
+P2,Analog,Socket_Arduino_Uno:Socket_Strip_Arduino_1x06,https://www.digikey.com/products/en?keywords=%2068001-106HLF
+P3,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x10,https://www.digikey.com/products/en?keywords=68001-110HLF%20
+P4,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,https://www.digikey.com/products/en?keywords=%2068001-108HLF%20
+P5,CONN_01X01,Socket_Arduino_Uno:Arduino_1pin,
+P6,CONN_01X01,Socket_Arduino_Uno:Arduino_1pin,
+P7,CONN_01X01,Socket_Arduino_Uno:Arduino_1pin,
+P8,CONN_01X01,Socket_Arduino_Uno:Arduino_1pin,
+R1,100k,Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT100K/CF14JT100KCT-ND/1830399
+R2,50k,Potentiometers:Potentiometer_Trimmer_Bourns_3266X,https://www.digikey.com/product-detail/en/bourns-inc/3266W-1-503LF/3266W-503LF-ND/1087955
+R3,10K,Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374
+R4,20k,Potentiometers:Potentiometer_Trimmer_Bourns_3266X,https://www.digikey.com/products/en?keywords=3266W-203LF-ND%20
+U1,MCP601P,Housings_DIP:DIP-8_W7.62mm,https://www.digikey.com/products/en/integrated-circuits-ics/linear-amplifiers-instrumentation-op-amps-buffer-amps/687?k=MCP601&k=&pkeyword=MCP601&pv16=6547&pv1291=862&mnonly=0&newproducts=0&ColumnSort=0&page=1&stock=1&quantity=0&ptm=0&fid=0&pageSize=25

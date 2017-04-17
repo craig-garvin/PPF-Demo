@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Documents/GitHub/PFF-example/Shield/Shield.sch</source>
+    <date>4/17/2017 1:42:53 PM</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PFF DEMO</title>
+        <company/>
+        <rev/>
+        <date>2017-04-17</date>
+        <source>Shield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=%2068001-108HLF%20</datasheet>
+      <libsource lib="Shield-rescue" part="CONN_01X08-RESCUE-Shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=%2068001-106HLF</datasheet>
+      <libsource lib="conn" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71177</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71274</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712A8</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712DB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=%2068001-108HLF%20</datasheet>
+      <libsource lib="Shield-rescue" part="CONN_01X08-RESCUE-Shield"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=68001-110HLF%20</datasheet>
+      <libsource lib="conn" part="CONN_01X10"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP601P</value>
+      <footprint>Housings_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://www.digikey.com/products/en/integrated-circuits-ics/linear-amplifiers-instrumentation-op-amps-buffer-amps/687?k=MCP601&amp;k=&amp;pkeyword=MCP601&amp;pv16=6547&amp;pv1291=862&amp;mnonly=0&amp;newproducts=0&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;quantity=0&amp;ptm=0&amp;fid=0&amp;pageSize=25</datasheet>
+      <libsource lib="linear" part="MCP601P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7F7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT10K0/CF14JT10K0CT-ND/1830374</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7F8</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/stackpole-electronics-inc/CF14JT100K/CF14JT100KCT-ND/1830399</datasheet>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7F9</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>20k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3266X</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=3266W-203LF-ND%20</datasheet>
+      <libsource lib="device" part="R_Variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7FA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4700pF</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/vishay-bc-components/K472K15X7RF5TL2/BC1076CT-ND/286698</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7FB</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>50k</value>
+      <footprint>Potentiometers:Potentiometer_Trimmer_Bourns_3266X</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/bourns-inc/3266W-1-503LF/3266W-503LF-ND/1087955</datasheet>
+      <libsource lib="device" part="R_Variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F4E7FE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>EXTERNAL</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=68001-102HLF%20</datasheet>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58F5001B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector, single row, 01x06, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Shield-rescue" part="CONN_01X08-RESCUE-Shield">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X08-RESCUE-Shield</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="power_out"/>
+        <pin num="2" name="P2" type="power_out"/>
+        <pin num="3" name="P3" type="power_out"/>
+        <pin num="4" name="P4" type="power_out"/>
+        <pin num="5" name="P5" type="power_out"/>
+        <pin num="6" name="P6" type="power_out"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X10">
+      <description>Connector, single row, 01x10, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="linear" part="MCP601P">
+      <description>2.7V to 6.0V Single Supply CMOS Operational Amplifier, DIP-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21314g.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP601P</field>
+        <field name="Footprint">Housings_DIP:DIP-8_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Variable">
+      <description>variable Resistor (Rheostat)</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Variable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library\linear.lib</uri>
+    </library>
+    <library logical="Shield-rescue">
+      <uri>D:\Documents\GitHub\PFF-example\Shield\Shield-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/A0">
+      <node ref="U1" pin="6"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R3-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="U1" pin="7"/>
+      <node ref="P1" pin="5"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="5" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="6" name="/A4(SDA)">
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="7" name="/A5(SCL)">
+      <node ref="P2" pin="6"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="8" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="9" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="10" name="/2">
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="11" name="/3(**)">
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="12" name="/4">
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="13" name="/5(**)">
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="14" name="/6(**)">
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="15" name="/7">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="16" name="/Reset">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="20" name="/Vin">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="21" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="22" name="GND">
+      <node ref="P3" pin="4"/>
+      <node ref="R3" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="6"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="23" name="/Vpp">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="26" name="/13(SCK)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="27" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="28" name="+3V3">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="29" name="/A1">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="30" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="31" name="/A3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="32" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="33" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="34" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="35" name="/10(**/SS)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="36" name="/9(**)">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="37" name="/8">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="38" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="39" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="40" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+  </nets>
+</export>
